@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide scrollbars */
+    background-color: #000010; /* Very dark blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #eee; /* Just in case text appears */
+    font-family: sans-serif;
+}
+
+#canvas-container {
+    /* The canvas will be positioned by p5.js */
+    /* Add potential styling for the container if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    display: block; /* Removes bottom space */
+    border: 1px solid #333; /* Optional: see canvas edges */
+}
